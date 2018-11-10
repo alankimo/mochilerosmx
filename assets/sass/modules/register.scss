@@ -37,10 +37,13 @@ html, body {
     text-transform: uppercase;
     }
     label {
-        display: inline-block;
+        display: flex;
+        align-items: center;
         width: 75px;
+        margin: 0;
     }
     input {
+        width: 100%;
         padding: 10px;
         border-radius: 3px;
         border: none;

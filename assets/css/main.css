@@ -1,0 +1,129 @@
+/* ---- Modulos ---- */
+/*
+---- Colors
+*/
+/*
+---- Text and spaces
+*/
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+a {
+  color: #0A1E54;
+}
+
+.text--light {
+  font-family: "Roboto", sans-serif;
+}
+
+.text--bold {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+}
+
+.btn--main,
+.btn--main:hover {
+  background-color: #29A5DB;
+  border-color: #29A5DB;
+  color: #FFFFFF;
+}
+
+.btn--white,
+.btn--white:hover {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.site-header {
+  background-color: #FFFFFF;
+  color: #212121;
+  padding: 2em;
+}
+
+.site-header--overlay {
+  background-color: transparent;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.site-header__logo {
+  align-items: center;
+  display: flex;
+  height: 34px;
+  justify-content: flex-start;
+  list-style: none;
+}
+.site-header__logo img {
+  height: auto;
+  width: 210px;
+}
+
+.main-nav {
+  align-items: center;
+  display: flex;
+  height: 34px;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.main-nav__item {
+  padding: 1em;
+}
+
+.index-slider {
+  background: url("../images/background--index-2.jpg") center bottom no-repeat transparent;
+  background-size: cover;
+  height: 60vh;
+}
+
+.book-now {
+  background: #0A1E54;
+  padding: 4em;
+}
+
+.book-now__title {
+  color: #FFFFFF;
+  display: block;
+  font-size: 1.5em;
+  line-height: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.book-now__divider {
+  background-color: #FFFFFF;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1px;
+}
+
+.book-now__form form {
+  justify-content: space-between;
+}
+
+.book-now--input-icon {
+  background-color: #29A5DB;
+  border-color: #29A5DB;
+  color: #FFFFFF;
+}
+
+.book-now--input,
+.book-now--input:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  outline-color: transparent;
+  outline-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */

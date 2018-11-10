@@ -1,0 +1,12 @@
+.btn--main,
+.btn--main:hover {
+	background-color: $accent-color;
+	border-color: $accent-color;
+	color: $white-color;
+}
+
+.btn--white,
+.btn--white:hover {
+	background-color: $white-color;
+	border-color: $white-color;
+}

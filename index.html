@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Oswald:500,700|Roboto:300,400" rel="stylesheet">
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<!-- Theme CSS -->
 	<link rel="stylesheet" href="assets/css/main.css">
 
@@ -16,11 +18,89 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </head>
 
 <body class="index-template"><!-- Renombrar la clase segun el template que estes haciendo -->
 		
-	<header></header>
+	<header class="site-header site-header--overlay">
+		<div class="container-fluid">
+			<div class="row">
+		
+				<div class="col-4">
+					<div class="site-header__logo">
+						<img src="assets/images/logo-mochileros.svg" alt="Mochileros.mx">
+					</div>
+				</div>
+
+				<div class="col-8">
+					<nav class="site-header__nav">
+						<ul class="main-nav">
+							<li class="main-nav__item"><a href="#" class="main-nav__anchor">Inicio</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__anchor">Preguntas Frecuentes</a></li>
+							<li class="main-nav__item"><a href="#" class="main-nav__anchor">Inicia Sesión</a></li>
+							<li class="main-nav__item"><a href="#" class="btn btn-sm btn--white">Crea un cuenta</a></li>
+						</ul>
+					</nav>
+						
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+	<section class="index-slider"></section>
+
+	<section class="book-now">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-2">
+					<span class="book-now__title text--light">Reserva</span>
+					<span class="book-now__title text--bold">Ahora</span>
+					<span class="book-now__divider"></span>
+				</div>
+				
+				<div class="col-10">
+					<div class="book-now__form">
+						
+						<form action="book.php" class="form-inline">
+
+							<label class="sr-only" for="inlineFormInputGroupUsername2">Fecha de salida</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text book-now--input-icon"><i class="fas fa-calendar-alt"></i></div>
+								</div>
+							<input type="text" class="form-control book-now--input" id="inlineFormInputGroupUsername2" placeholder="Username">
+							</div>
+
+							<label class="sr-only" for="inlineFormInputGroupUsername2">Fecha de regreso</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text book-now--input-icon"><i class="fas fa-calendar-alt"></i></div>
+								</div>
+							<input type="text" class="form-control book-now--input" id="inlineFormInputGroupUsername2" placeholder="Username">
+							</div>
+
+							<label class="sr-only" for="inlineFormInputGroupUsername2">Fecha de salida</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<div class="input-group-text book-now--input-icon"><i class="fas fa-calendar-alt"></i></div>
+								</div>
+							<input type="text" class="form-control book-now--input" id="inlineFormInputGroupUsername2" placeholder="Username">
+							</div>
+
+							<button class="btn btn--main">Buscar</button>
+
+						</form>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
 
 	<footer></footer>
 

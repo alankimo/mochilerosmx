@@ -1,0 +1,43 @@
+.book-now {
+	background: $primary-color;
+	padding: $gutter * 2 + em;
+}
+
+.book-now__title {
+	color: #FFFFFF;
+	display: block;
+	font-size: 1.5em;
+	line-height: 1em;	
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.book-now__divider {
+	background-color: $white-color;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 1px;
+}
+
+.book-now__form {
+	form {
+		justify-content: space-between;
+	}
+}
+
+.book-now--input-icon {
+	background-color: $accent-color;
+	border-color: $accent-color;
+	color: $white-color;
+}
+
+.book-now--input,
+.book-now--input:focus {
+	background-color: $white-alpha-color;
+	border-color: $white-alpha-color;
+	color: $white-color;
+	outline-color: transparent;
+  outline-style: none;
+}

@@ -2,7 +2,7 @@ html, body {height: 100%; margin: 0; padding: 0;}
 body {
     position: relative;
     font-family: 'Roboto Condensed', sans-serif;
-    background-image: url(img/home-slide.jpg);
+    background-image: url(assets/images/home-slide.jpg);
     background-color: #000;
 }
 body::before {

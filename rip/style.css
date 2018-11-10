@@ -118,7 +118,7 @@ header {
 
 /* Slideshow Homepage */
 .slideshow-home {
-	background-image: url('home-slide.jpg');
+	background-image: url('../images/home-slide.jpg');
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -162,7 +162,7 @@ header {
 
 .search-form__action {
 	background-color: #f4f4f4;
-	background-image: url('icon-search.svg');
+	background-image: url('../images/icon-search.svg');
 	background-size: 25px auto;
 	background-repeat: no-repeat;
 	background-position: center;

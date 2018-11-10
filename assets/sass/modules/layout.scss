@@ -1,0 +1,21 @@
+body {
+	font-size: 14px;
+	font-family: $font-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-heading;
+}
+
+a {
+	color: $primary-color;
+}
+
+.text--light {
+	font-family: $font-body;
+}
+
+.text--bold {
+	font-family: $font-heading;
+	font-weight: $bold-text;
+}
